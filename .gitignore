@@ -1,0 +1,23 @@
+# 环境与密钥
+.env
+.env.local
+*.env
+
+# 运行时产物
+logs/
+*.log
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 浏览器 profile（含登录态，切勿提交）
+browser_profile/
+edge_profile/
+chrome_profile/
+
+# 系统
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
